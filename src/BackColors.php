@@ -2,7 +2,7 @@
 
 namespace Francerz\Console;
 
-interface BackColors
+abstract class BackColors
 {
     public const DEFAULT        = "\e[49m";
     public const BLACK          = "\e[40m";

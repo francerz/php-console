@@ -41,4 +41,5 @@ echo BackColors::LIGHT_GREEN . 'LIGHT GREEN';
 echo BackColors::LIGHT_CYAN . 'LIGHT CYAN';
 echo BackColors::LIGHT_BLUE . 'LIGHT BLUE';
 echo BackColors::LIGHT_MAGENTA . 'LIGHT MAGENTA';
+echo BackColors::DEFAULT . ForeColors::DEFAULT;
 echo PHP_EOL;

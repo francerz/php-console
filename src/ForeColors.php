@@ -2,7 +2,7 @@
 
 namespace Francerz\Console;
 
-interface ForeColors
+abstract class ForeColors
 {
     public const DEFAULT        = "\e[39m";
     public const BLACK          = "\e[30m";
@@ -21,5 +21,4 @@ interface ForeColors
     public const LIGHT_MAGENTA  = "\e[95m";
     public const LIGHT_CYAN     = "\e[96m";
     public const WHITE          = "\e[97m";
-
 }
