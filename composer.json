@@ -1,0 +1,10 @@
+{
+    "name": "francerz/console",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Francerz\\Console\\" : "src"
+        }
+    },
+    "require": {}
+}
